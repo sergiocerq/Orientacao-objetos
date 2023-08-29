@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class NumeroNatural {
 
-	public static void main(String[] args) {=
+	public static void main(String[] args) {
 		Scanner teste = new Scanner(System.in);
 		System.out.println("Informe um valor: ");
 		int valor = teste.nextInt();

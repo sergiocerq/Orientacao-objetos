@@ -24,7 +24,7 @@ public class Teste {
 		System.out.println(account.getBalance());	
 		
 		SpecialAccount special = new SpecialAccount();
-		special.setName("Cristiano");
+		special.setName("Teste");
 		special.setCode("HGJ876");
 		
 		try {

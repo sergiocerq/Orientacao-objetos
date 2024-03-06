@@ -1,0 +1,11 @@
+#Contexto da aplicação:
+
+Imagine que você está desenvolvendo um sistema de automação residencial avançado, onde os usuários podem controlar diversos dispositivos inteligentes em suas casas, como lâmpadas, termostatos, câmeras de segurança, entre outros.
+
+#O desafio é o seguinte:
+
+Você foi designado para implementar um sistema de fábrica para criar diferentes tipos de dispositivos inteligentes. Cada dispositivo inteligente tem suas próprias funcionalidades e características únicas.
+
+Você precisa projetar uma estrutura flexível que permita adicionar novos tipos de dispositivos sem modificar o código existente. Além disso, cada tipo de dispositivo pode ter diferentes configurações de inicialização.
+
+Seu objetivo é utilizar o padrão Factory Method para criar uma estrutura que permita aos usuários instanciar diferentes tipos de dispositivos inteligentes de forma transparente, sem a necessidade de conhecer a lógica detalhada de inicialização de cada tipo de dispositivo.

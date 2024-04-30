@@ -25,19 +25,23 @@ public class ThirdPartyYoutubeClass implements ThirdPartyYouTubeLib {
     @Override
     public String getVideoInfo(String videoId) {
         Video video = null;
-        for (Video v : this.videoList)
-            if(v.getId() == videoId)
+        for (Video v : this.videoList) {
+            if (v.getId().equals(videoId)) {
                 video = v;
-
-        return video.getDescription();
+                break;
+            }
+        }
+        return video != null ? video.getDescription() : null;
     }
 
     @Override
     public Video downloadVideo(String id) {
-        for(Video v : this.videoList)
-            if(v.getId() == id)
+        for (Video v : this.videoList) {
+            if (v.getId().equals(id)) {
                 return v;
-
+            }
+        }
         return null;
     }
+
 }

@@ -12,7 +12,6 @@ public class CachedYoutubeClass implements ThirdPartyYouTubeLib {
 
     public CachedYoutubeClass(ThirdPartyYouTubeLib newLib) {
         myLib = newLib;
-
     }
 
     @Override

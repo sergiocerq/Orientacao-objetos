@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Design Patterns/AbstractFactory/VideoPlayerCopaMundo" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Orientação a Objetos" isTestSource="false" packagePrefix="application" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="AbstractFactory" />
+    <orderEntry type="module" module-name="Adapter" />
+    <orderEntry type="module" module-name="Singleton" />
+    <orderEntry type="module" module-name="YoutubeManager" />
+    <orderEntry type="module" module-name="Proxy-Acesso-Empresa" />
+    <orderEntry type="module" module-name="Decorator" />
+    <orderEntry type="module" module-name="Builder" />
+    <orderEntry type="module" module-name="FactoryMethod" />
+    <orderEntry type="module" module-name="Prototype" />
+  </component>
+</module>

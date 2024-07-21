@@ -1,8 +1,8 @@
-package entities;
+package entities.bolos;
 
-public class BoloLimao extends Bolo {
+public class BoloLaranja extends Bolo {
 
-  public BoloLimao() {
+  public BoloLaranja() {
     super(5);
   }
 

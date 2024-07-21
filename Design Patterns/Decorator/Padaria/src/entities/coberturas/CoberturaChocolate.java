@@ -1,4 +1,4 @@
-package entities;
+package entities.coberturas;
 
 import decorators.CoberturaDecorator;
 import interfaces.Padaria;

@@ -1,6 +1,5 @@
 package decorators;
 
-import entities.Bolo;
 import interfaces.Padaria;
 
 public abstract class CoberturaDecorator implements Padaria {

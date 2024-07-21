@@ -1,4 +1,4 @@
-package entities;
+package entities.bolos;
 
 import interfaces.Padaria;
 

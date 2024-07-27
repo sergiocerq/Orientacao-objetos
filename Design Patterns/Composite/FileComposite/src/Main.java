@@ -8,23 +8,21 @@ import java.util.List;
 public class Main {
 
   public void run() {
-    File file1 = new FileLeaf(145);
-    File file2 = new FileLeaf(784);
-    File file3 = new FileLeaf(823);
-    File file4 = new FileLeaf(187);
-    File file5 = new FileLeaf(756);
+    File directory = new DirectoryComposite();
+    File leaf = new FileLeaf(643);
+    directory.addComponent(leaf);
 
-    List files = new ArrayList();
+    File directory2 = new DirectoryComposite();
+    directory2.addComponent(leaf);
+    File leaf2 = new FileLeaf(312);
+    directory2.addComponent(leaf2);
 
-    files.add(file1);
-    files.add(file2);
-    files.add(file3);
-    files.add(file4);
-    files.add(file5);
-
-    File directory = new DirectoryComposite(files);
+    directory.addComponent(directory2);
 
     directory.getSize();
+
+    leaf.addComponent(leaf2); // -> Unsupported operation.
+    leaf.removeComponent(leaf2);// -> Unsupported operation.
   }
 
   public static void main(String[] args) {

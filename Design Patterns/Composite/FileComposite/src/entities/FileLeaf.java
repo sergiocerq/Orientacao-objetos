@@ -15,4 +15,14 @@ public class FileLeaf implements File {
     System.out.println("File Leaf Size: " + this.size);
     return this.size;
   }
+
+  @Override
+  public void addComponent(File component) {
+    throw new UnsupportedOperationException("Cannot add component to a file.");
+  }
+
+  @Override
+  public void removeComponent(File component) {
+    throw new UnsupportedOperationException("Cannot remove a component from a file.");
+  }
 }
